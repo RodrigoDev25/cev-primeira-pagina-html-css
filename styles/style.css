@@ -18,7 +18,6 @@
 
 body {
     font-family: var(--fontPadrão);
-    line-height: 1.5;
     background-color: #fff;
     color: #000;
 }
@@ -49,22 +48,18 @@ a {
 }
 
 header {
-    display: flex;
     background-color: #000;
-    align-items: center;
-    justify-content: space-between;
+    padding-bottom: 15px;    
 }
 
 header img {
     margin: 10px 20px;
-    display: block; 
 }
 
 nav {
     text-align: right;
+    margin-top: -40px;
     margin-right: 20px;
-    padding: 10px 0px;
-
 }
 
 nav a {
